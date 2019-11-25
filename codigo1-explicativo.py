@@ -21,6 +21,7 @@ __email__ = "tuliovilela7@hotmail.com"
 ###############
 # Variáveis são utilizadas para atribuir algum valor. Elas podem ser alteradas a qualquer momento
 # Na maioria das linguagens é necessário declarar o tipo da variável anteriormente, já no Python não.
+print("\nDEMONSTRAÇÃO 1 - Variáveis")
 variavel1 = "Aba"
 variavel2 = "caxi"
 variavel3 = 100
@@ -29,7 +30,7 @@ variavel4 = 200
 variavel12 = variavel1 + variavel2
 variavel34 = variavel3 + variavel4
 
-print(variavel1)
+print(variavel1) # PRINT serve para mostrar algum texto na tela do terminal
 print(variavel2)
 print(variavel3)
 print(variavel4)
@@ -42,6 +43,7 @@ print(variavel34)
 ###########################
 # Estruturas condicionais são utilizadas para exercer condições ao código.
 # Ou seja, se acontecer algo, então faça algo.
+print("\nDEMONSTRAÇÃO 2 - Estrutura Condicional")
 variavel_teste = 100
 if(variavel_teste < 100): #SE ...
     print("A variavel é menor que 100.")
@@ -63,11 +65,11 @@ else: #SENÃO
 # &&  : E
 
 ####################################################################################################
-###########################
-## Estrutura Condicional ##
-###########################
+#############################
+## Estrutura de Repetições ##
+#############################
 #Repetições são loops para fazer algo até que seja atendido uma condição
-
+print("\nDEMONSTRAÇÃO 3 - Estrutura de Repetições")
 for i in range(10): #Utilizando o for (percorrer por algo...)
     print(i)
 
@@ -83,7 +85,7 @@ while(x<=5): #Repetição utilizando while (enquanto algo...)
 # Utilizamos funções para preparar para alguma rotina sempre que chamá-la. 
 # Estas funções podem receber e devolver valores, vejamos os exemplos a seguir
 # Utilizamos "def" para iniciar uma função
-
+print("\nDEMONSTRAÇÃO 4 - Funções")
 def valor_de_pi(): #Função que devolve um valor
     return 3.14159265359
 

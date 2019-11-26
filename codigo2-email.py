@@ -16,8 +16,9 @@ email_sender = "tuliodias@inatel.br" #Coloque aqui seu Email Inatel
 email_password = "Icc122019" #Coloque aqui sua Senha Inatel
 
 destinatarios = []
-destinatarios.append("tuliovilela7@hotmail.com") #Adicionando destinatario(s)
-destinatarios.append("tuliovilela@gea.inatel.br") #Adicionando destinatario(s)
+#destinatarios.append("tuliovilela7@hotmail.com") #Adicionando destinatario(s)
+#destinatarios.append("tuliovilela@gea.inatel.br") #Adicionando destinatario(s)
+destinatarios.append("mellina@inatel.br") #Adicionando destinatario(s)
 
 def send_email(assunto,message,destinatarios,meu_email,senha):  #FUNÇÃO PARA ENVIO DE EMAIL
     # Configuração do Envio do email
@@ -38,7 +39,7 @@ def send_email(assunto,message,destinatarios,meu_email,senha):  #FUNÇÃO PARA E
     # Trabalho feito, desconectando
     server.quit()
 
-assunto_do_email = "Titulo do Email - Teste" #Edite o Assunto
-mensagem_do_email = "Mensagem do email - Escreva o que quiser aqui." #Edite a mensage
+assunto_do_email = "UHULLLLLL" #Edite o Assunto
+mensagem_do_email = "Mellina esta aprendendo a programar." #Edite a mensage
 
 send_email(assunto_do_email,mensagem_do_email,destinatarios,email_sender,email_password) #Chamando função de envio de email.

@@ -21,7 +21,7 @@ __email__ = "tuliovilela7@hotmail.com"
 ###############
 # Variáveis são utilizadas para atribuir algum valor. Elas podem ser alteradas a qualquer momento
 # Na maioria das linguagens é necessário declarar o tipo da variável anteriormente, já no Python não.
-print("\nDEMONSTRAÇÃO 1 - Variáveis")
+print("\nDEMONSTRACAO 1 - Variaveis")
 variavel1 = "Aba"
 variavel2 = "caxi"
 variavel3 = 100
@@ -61,8 +61,8 @@ else: #SENÃO
 # <=  : Menor Igual
 # ==  : Igual
 # !=  : Diferente
-# ||  : OU
-# &&  : E
+# or  : OU
+# and : E
 
 ####################################################################################################
 #############################

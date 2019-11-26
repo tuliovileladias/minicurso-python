@@ -13,7 +13,7 @@ import email.message
 import smtplib
 
 email_sender = "tuliodias@inatel.br" #Coloque aqui seu Email Inatel
-email_password = "Icc122019" #Coloque aqui sua Senha Inatel
+email_password = "sua_senha" #Coloque aqui sua Senha Inatel
 
 destinatarios = []
 #destinatarios.append("tuliovilela7@hotmail.com") #Adicionando destinatario(s)
